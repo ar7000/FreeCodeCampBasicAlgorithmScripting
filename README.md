@@ -21,3 +21,13 @@ Working through Basic Algorithm Scripting via FreeCodeCamp resources and copying
     const joinedOneWord = sampleStr.join(''); //Returns "Itismorning"
     const joinedChar = sampleStr.join(' '); //Returns "It is morning"
     ```
+
+- Learned to use .substr() method to extract part of a string. Takes a starting index and number of characters to return (optional; without this method will return the whole remainder of string from specified index). Example:
+
+```
+let newStr = "Tours of the bayou are beautiful in summer";
+let subStr = newStr.substr(15,17); //Returns "you are beautiful"
+
+let str = "This is a string";
+let lastEight = str.substr(8); //Returns "a string"
+```
